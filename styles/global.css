@@ -1,0 +1,54 @@
+/* Themes*/
+:root {
+  color-scheme: dark;
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --accent-color: #bb86fc;
+    font-family: sans-serif;    
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color-scheme: light;
+    --bg-color: #fff;
+    --text-color: #212121;
+    --accent-color: #bb86fc;
+  }
+}
+
+/* General */
+
+html, body {
+  font-family: monospace;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  height: 100%;
+  margin: 0;
+}
+
+a {
+  color: var(--link-color);
+}
+
+/* Header*/
+
+header {
+  text-align: center;
+}
+
+header a {
+  text-decoration-line: none;  
+}
+
+header a:hover {
+  text-decoration-line: underline;
+}
+
+header ul {
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  justify-content: center;
+
+  list-style-type: none;
+}
