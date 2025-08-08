@@ -1,0 +1,20 @@
+/* Header*/
+
+header {
+  text-align: center;
+}
+
+header a {
+  text-decoration-line: none;  
+}
+
+header a:hover {
+  text-decoration-line: underline;
+}
+
+header ul {
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  justify-content: center;
+}

@@ -1,0 +1,13 @@
+/* Footer */
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  text-decoration-line: none;  
+}
+
+footer a:hover {
+  text-decoration-line: underline;
+}
