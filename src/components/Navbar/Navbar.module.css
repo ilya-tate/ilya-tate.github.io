@@ -1,0 +1,21 @@
+.navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 12px 36px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar a {
+  display: inline-block;
+  padding: 8px 0;
+  text-underline-offset: 4px;
+}
+
+.navbar a[aria-current="page"],
+.navbar a:hover,
+.navbar a:focus-visible {
+  text-decoration: underline;
+}

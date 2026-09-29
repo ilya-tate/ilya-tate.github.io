@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 24px;
+  padding: 24px 0;
+  border-bottom: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.title a {
+  display: inline-block;
+  padding: 8px 0;
+  text-underline-offset: 4px;
+}
+
+.title a:hover,
+.title a:focus-visible {
+  text-decoration: underline;
+}
